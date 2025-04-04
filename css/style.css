@@ -1,0 +1,1372 @@
+html
+{
+    box-sizing: border-box;
+}
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+body
+{
+    display: block;
+    font-family: 'Mimolette-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: normal;
+    color: #373737;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+p
+{
+    margin: 0;
+}
+
+
+.container
+{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Adding fonts */
+@font-face 
+{
+    font-family: 'Dela Gothic One';;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
+}
+@font-face
+{
+    font-family: 'Mimolette-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Mimolette-Regular.otf);
+}
+@font-face 
+{
+    font-family: 'Khorla';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Khorla.ttf);
+}
+
+/* Header style start */
+.header
+{
+   background-color: #F1E8DB;
+   padding: 10px 0; 
+   height: 98px;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    gap: 55px;
+}
+.menu-item
+{
+    list-style-type: none;
+    font-family: 'Khorla';
+    font-size: 16px;
+}
+.menu-link
+{
+   text-decoration: none;
+   color: #373737; 
+}
+.menu-link:hover, .menu-link:focus, .menu-link:active
+{
+    color: #98102a;
+}
+/* Header style end */
+
+
+/* HOMEPAGE START */
+/* Block 1 style start */
+.home-block1
+{
+    background-color: #F1E8DB;
+    max-height: 500px;
+}
+.home-block1-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.home-block1-headline
+{
+    padding-top: 150px;
+    margin: 0; 
+}
+.home-block1-title
+{
+    font-family: 'Dela Gothic One';
+    color: #98102a;
+    font-size: 36px;
+    width: 437px;
+    line-height: 150%; /* 54px */
+}
+.home-block1-subtitle
+{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.home-block1-pic
+{
+    padding-top: 16px;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.home-block2
+{
+    padding: 110px 0;
+    background-color: #fff;
+}
+.home-block2-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-block2-pic
+{
+    margin: 0;  
+}
+.home-block2-article
+{
+    width: 360px;
+}
+.home-block2-title
+{
+    margin: 0;
+    padding: 0;
+    color: #98102a;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    line-height: 150%;
+    font-style: normal;   
+}
+.home-block2-text
+{
+    padding-top: 30px;   
+    font-family: Mimolette-Regular;
+    font-size: 16px;
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.home-block3 
+{
+    background-color: #FDDD98;
+    min-height: 600px;
+    margin-bottom: 40px;
+}
+
+.home-block3-title
+{
+    margin: 0px;
+    padding-top: 54px;
+    color: #98102a;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+}
+.home-block3-nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 79px;
+}
+.home-block3-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px; 
+}
+.home-block3-btn
+{
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 170px;
+    height: 62px;
+    border-radius: 10px;
+    background: #FCB8AC;
+    box-shadow: 3px 3px 0px 1px #98102a; 
+}
+.home-block3-btn-text
+{
+    color: #373737;
+    font-family: 'Khorla';
+    width: 115px;
+}
+.home-block3-btn:hover
+{
+    background-color: #fff;
+}
+/* Block 3 style end */
+/* HOMEPAGE END*/
+
+
+/* KIDS PAGE START */
+/* Block 1 style start */
+.kids-block1-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.kids-block1-article
+{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 77px;
+}
+.kids-block1-title
+{
+    color: #98102a;
+    text-align: center;
+    font-family: 'Dela Gothic One';;
+    font-size: 20px;
+    line-height: 150%; /* 30px */
+    padding-bottom: 65px;
+}
+.kids-block1-text
+{
+    max-width: 365px;
+    text-indent: 10px;
+}
+.kids-block1-p
+{
+    padding-bottom: 35px;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.kids-block2
+{
+    height: 200px;
+    background-color: #FDDD98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kids-block2-article
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.kids-block2-title 
+{
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    color: #98102a;
+    margin: 0;
+    padding-bottom: 37px;
+    word-spacing: 4px;
+}
+.kids-block2-subtitle 
+{
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.kids-block3 
+{
+    height: 455px;
+    margin: 50px 0;
+}
+.kids-block3-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kids-block3-article 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.kids-block3-title 
+{
+    font-family: 'Khorla';
+    font-size: 20px;
+    margin: 0;
+}
+.kids-block3-list 
+{
+    padding-top: 45px;
+    padding-left: 20px;
+    width: 454px;
+    margin: 0;
+}
+.kids-block3-item 
+{
+    padding-bottom: 60px; 
+}
+.kids-block3-item:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.kids-block4
+{
+    max-height: 600px;
+    background-color: #F1E8DB;
+    margin-bottom: 40px;
+}
+.kids-block4-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kids-block4-article 
+{
+    max-width: 360px;
+}
+.kids-block4-title 
+{
+    font-family: 'Dela Gothic One';;
+    font-size: 20px;
+    color: #98102a;
+}
+.kids-block4-text
+{
+    padding-top: 50px;
+}
+.kids-block4-p1, .kids-block4-p2, .kids-block4-p3
+{
+    margin: 0;
+    padding-bottom: 30px;
+}
+.kids-block4-p3
+{
+    font-family:'Khorla';
+    font-size: 16px;
+    padding-bottom: 0;
+}
+/* Block 4 style end */
+/* KIDS PAGE END */
+
+/* FIRST STEPS START */
+/* Block 1 style start */
+.steps-block1
+{
+    background-color: #F1E8DB;
+}
+.steps-block1-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.steps-block1-article
+{
+    width: 570px;
+    height: 321px;
+}
+.steps-block1-title
+{
+    margin: 0;
+    color: #98102A;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 47px;
+}
+.steps-block1-subtitle
+{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 37.5px */
+    padding-bottom: 47px;
+}
+.steps-block1-text
+{
+    margin: 0%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.steps-block1-text::first-letter
+{
+    font-size: 24px;
+    color: #98102A;
+}
+/* Block 1 style end */
+
+
+/*  Block 2 style start */
+.steps-block2
+{
+    padding: 75px 0px;
+}
+.steps-block2-title
+{
+    margin: 0;
+    color: #3518C6;
+    font-family: 'Dela Gothic One';;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.steps-block2-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+}
+.steps-block2-list
+{
+    width: 513px;
+    height: 702px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.steps-list-item 
+{
+    font-size: 16px;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.steps-list-item:last-child
+{
+    padding-bottom: 0px;
+}
+.steps-list-item::first-line
+{
+    font-family: 'Khorla';
+}
+.steps-link
+{
+    color: #98102A;
+    font-family: 'Khorla';
+}
+/*  Block 2 style end */
+
+/*  Block 3 style start */
+.steps-block3-header
+{
+    height: 90px;
+    background-color: #FDDD98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.steps-block3-title
+{
+    color: #98102A;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    font-weight: 400;
+}
+.steps-block3-nav
+{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.steps-block3-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+.steps-bloc3-pics
+{
+    outline:10px solid #FFFFFF80;
+    outline-offset: -20px; 
+}
+.steps-block3-subtitle
+{
+    width: 326px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 30px 0px;
+}
+.steps-block3-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 172px;
+    height: 63px;
+    border-radius: 10px;
+    background: #FCB8AC;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.steps-block3-btn:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.steps-block3-footer
+{
+    height: 92px;
+    background-color: #FDDD98;
+}
+/*  Block 3 style end */
+/* FIRST STEPS END */
+
+/* PET CARE START */
+/*  Block 1 style start */
+.pet-block1-pic
+{
+    max-width: 1150px;
+    height: auto;
+    display: flex;
+    border: #F1E8DB solid 10px;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.pet-block2 
+{
+    height: 250px;
+    background-color: #F1E8DB;
+    margin: 75px 0px;
+}
+.pet-block2-content
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+.pet-block2-title 
+{
+    display: flex;
+    justify-content: center;
+    color: #98102A;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+.pet-block2-nav 
+{
+    padding-top: 52px;
+}
+.pet-block2-menu 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pet-block2-item 
+{
+    list-style: none;
+}
+.pet-block2-link 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 169px;
+    height: 61px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background: #FDDD98;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.pet-block2-link:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a; 
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.pet-block3 
+{
+    margin: 75px 0px;
+}
+.pet-block3-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 95px;
+}
+.pet-block3-text 
+{
+    width: 361px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.pet-block4 
+{
+    height: 500px;
+    background-color: #F1E8DB;
+    margin-bottom: 75px;
+}
+.pet-block4-article 
+{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pet-block4-title 
+{
+    color: #98102A;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    font-weight: 400;
+}
+.pet-block4-subtitle 
+{
+    font-family: 'Khorla';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.pet-block4-p 
+{
+    max-width: 930px;
+    padding-bottom: 20px;
+}
+.pet-block4-p:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 4 style end */
+
+/* Block 5 style start */
+.pet-block5 
+{
+    height: 600px;
+    background-color: #FDDD98;
+    margin-bottom: 40px;
+}
+.pet-block5-content 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.pet-block5-article 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding-top: 113px;
+}
+.pet-block5-title 
+{
+    margin: 0;
+    font-family: 'Khorla';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.pet-block5-subtitle 
+{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 30px;
+}
+.pet-block5-text 
+{
+    padding-top: 55px;
+}
+.pet-block5-p 
+{
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 30px;
+}
+.pet-block5-p:last-child
+{
+    padding-bottom: 0px;
+}
+.pet-block5-aside 
+{
+    background-color: #fff;
+    max-width: 455px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.pet-aside-article 
+{
+    padding: 180px 72px;
+}
+.pet-aside-title 
+{
+    color: #3518C6;
+    font-family: 'Khorla';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    text-align: center;
+}
+.pet-aside-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 5 style end */
+/* PET CARE END */
+
+/* ACTIVITY START */
+/* Block 1 style start */
+.activity-block1-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activity-block1-article 
+{
+    padding-left: 95px;
+}
+.activity-block1-title 
+{
+    margin: 0;
+    color: #98102A;
+    text-align: center;
+    font-family: 'Dela Gothic One';;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.activity-block1-text 
+{
+    width: 314px;
+}
+.activity-block1-p 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-bottom: 35px;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.activity-block2 
+{
+    height: 200px;
+    background-color: #FDDD98;
+}
+.activity-block2-title 
+{
+    font-family: 'Khorla';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 40px;
+}
+.activity-block2-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-top: 30px;
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.activity-block3 
+{
+    margin: 45px 0px;
+}
+.activity-block3-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.activity-block3-article 
+{
+    width: 475px;
+}
+.activity-block3-title 
+{
+    margin: 0;
+    color: #98102A;
+    font-family: 'Dela Gothic One';;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-bottom: 40px;
+}
+.activity-block3-subtitle 
+{
+    font-family: 'Khorla';
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.activity-block3-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding: 30px 0px;
+}
+.activity-block3-p 
+{
+    padding-bottom: 22px;
+}
+.activity-block3-p:last-child
+{
+    padding-bottom: 22px;
+}
+.activity-block3-link
+{
+    color: #98102A;
+    font-family: 'Khorla';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.activity-block4 
+{
+    height: 600px;
+    background-color: #F1E8DB;
+}
+.activity-block4-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activity-block4-article 
+{
+    width: 360px;
+}
+.activity-block4-text 
+{
+    padding-bottom: 40px;
+}
+.activity-block4-title 
+{
+    font-family: 'Khorla';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    text-align: center;
+}
+.activity-block4-p 
+{
+    padding-top: 30px;
+}
+/* Block 4 style end */
+/* ACTIVITY END */
+
+/* TRAVEL START */
+/* Title start */
+.travel-title
+{
+    margin: 0;
+    color: #98102A;
+    text-align: center;
+    font-family: 'Dela Gothic One';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    padding: 70px 0px;
+}
+/* Title end */
+
+/* Block 1 style start */
+.travel-block1 
+{
+    height: 170px;
+    background-color: #FDDD98;
+}
+.travel-block1-article
+{
+    padding: 40px 0px;
+    position: absolute;
+}
+.travel-block1-p 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.travel-block2 
+{
+    margin: 70px 0px;
+}
+.travel-block2-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-block2-article 
+{
+    width: 455px;
+}
+.travel-block2-title 
+{
+    margin: 0;
+    color: #98102A;
+    font-family: 'Dela Gothic One';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.travel-block2-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding: 50px 0px;
+}
+.travel-block2-p
+{
+    padding-bottom: 35px;
+}
+.travel-block2-p:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.travel-block3
+{
+margin-bottom: 70px;
+}
+.travel-block3-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-block3-article
+{
+    width: 360px;
+}
+.travel-block3-text 
+{
+    padding-bottom: 65px;
+}
+.travel-block3-text:last-child
+{
+    padding-bottom: 0; 
+}
+.travel-block3-title
+{
+    color: #98102A;
+    font-family: 'Dela Gothic One';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.travel-block3-p 
+{
+    padding-top: 35px;
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.travel-block4 
+{
+    height: 600px;
+    background-color: #FDDD98;
+}
+.travel-block4-content 
+{
+    padding-top: 50px;
+}
+.travel-block4-title 
+{
+    margin: 0;
+    color: #98102A;
+    text-align: center;
+    font-family: 'Dela Gothic One';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.travel-block4-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.travel-block4-text 
+{
+    width: 1025px;
+}
+.travel-block4-p 
+{
+    padding-bottom: 25px;
+}
+.travel-block4-p:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 4 style end */
+
+/* Block 5 style start */
+.travel-block5 
+{
+    margin: 40px 0;
+}
+.travel-block5-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-block5-article 
+{
+    width: 400px;
+}
+.travel-block5-title 
+{
+    margin: 0;
+    color: #98102A;
+    font-family: 'Dela Gothic One';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-bottom: 35px;
+}
+.travel-block5-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-bottom: 45px;
+}
+.travel-block5-p 
+{
+    padding-bottom: 30px;
+}
+/* Block 5 style end */
+
+/* Block 6 style start */
+.travel-block6 
+{
+    height: 200px;
+    background-color: #F1E8DB;
+}
+.travel-block6-content 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.travel-block6-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    width: 930px;
+    
+}
+.travel-block6-p 
+{
+    font-family: 'Khorla';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-top: 50px;
+}
+/* Block 6 style end */
+/* TRAVEL END */
+
+/* CONTACT START */
+/* Block 1 style start */
+.contact-block1 
+{
+    background-color: #F1E8DB;
+    height: 126px;
+}
+.contact-block1-title 
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    color: #98102A;
+    font-family: 'Dela Gothic One';
+    font-size: 32px;
+    font-weight: 400;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.contact-block2 
+{
+    background-color: #F1E8DB;
+}
+.contact-content 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-pic
+{
+    margin: 0;
+}
+figcaption
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #373737;
+    color: #fff;
+}
+.contact-information 
+{
+    display: flex;
+    flex-direction: column;
+}
+.contact-block2-title 
+{
+    margin: 0;
+    padding-bottom: 40px;
+    color: #3518C6;
+    font-family: 'Khorla';
+    font-size: 24px;
+    font-weight: 400;
+}
+.contact-forms {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Radio button start */
+.contact-radio-buttons 
+{  
+padding-bottom: 70px;
+
+}
+input[type="radio"]
+{
+    display: none;
+}
+label span
+{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 80px;
+    transition: .25s ease;
+    border-radius: 15px;
+}
+label span::before
+{
+    content: "";
+    background-color: #fff;
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: .25s ease;
+    box-shadow: inset 0 0 0 2px #3518C6;
+}
+input[type="radio"]:checked + span::before
+{
+    box-shadow: inset 0 0 0 10px #3518C6;
+}
+/* Radio button end */
+
+.contact-input 
+{
+    margin-bottom: 70px;
+    height: 40px;
+    width: 360px;
+    border-radius: 15px;
+    border-color: #FFFFFF80;
+    text-align: center;
+}
+.contact-input-help
+{
+    margin-bottom: 70px;
+    height: 200px;
+    width: 360px;
+    border-radius: 15px;
+    border-color: #FFFFFF80;
+    text-align: center;
+}
+.contact-send-btn
+{
+    display: flex;
+    justify-content: center;
+}
+.submit-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #373737;
+    font-family: 'Khorla';
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 170px;
+    height: 61px;
+    border-radius: 10px;
+    background:  #FCB8AC;
+    box-shadow: 3px 3px 0px 1px #98102A;
+    border: 0;
+    cursor: pointer;
+}
+.submit-button:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a; 
+}
+/* Block 2 style end */
+/* CONTACT END */
+
+/* Footer style start */
+.footer
+{
+    padding: 42px 0;
+    background-color: #F1E8DB;
+}
+.contact-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 169px;
+    height: 61px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background: #FDDD98;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.contact-btn:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.footer-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Footer style end */
+
+/* Cookie style start */
+.cookie
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: #FFFFFF80;
+    transition: 400ms;
+    z-index: 9999;
+}
+.cookie a
+{
+    color: #3518C6;
+}
+.cookies-message
+{
+    padding: 20px 0px;
+}
+.cookie-btn
+{
+    border: 0;
+    background-color: #FCB8AC;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* Cookie style end */
+
+@media (orientation: portrait), (max-width: 768px)
+{
+    .header
+    { 
+        max-width: 100%;
+    }
+    .home-block1
+    {
+        max-width: 100%;
+    }
+    .home-block2-content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-block3
+        {
+            max-height: 100%;
+        }
+    .home-block3-nav
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}
