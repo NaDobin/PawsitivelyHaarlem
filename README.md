@@ -1,4 +1,5 @@
 Description
+
 This project is a website developed as part of a university course on web development fundamentals. The main feature of the project is the constraints imposed by the assignment: a prohibition on using the <div> tag and JavaScript, which required non-standard approaches to layout and content structuring using semantic HTML elements.
 Project Features
 
